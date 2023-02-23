@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* font-family: 'Bebas Neue', cursiva;
+font-family: 'Passion One', cursiva;
+font-family: 'Sriracha', cursiva;
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 50px;
+}
+
+header h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Passion One', cursiva;
+    
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'gill sans';
+    
+}
+
+header p a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Passion one';
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    margin-top: 50px;
+    text-align: left;
+    padding: 20px;
+    min-width: 500px;
+    font-size: 33px;
+    font-family: 'Sriracha', cursiva;
+    
+
+}
+
+main > .container {
+    margin-top: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(background001.jpg);
+    position: relative;
+    padding: 30px;
+    height: 550px;
+
+}
+
+main > .container .joaninha {
+    background-color: rgba(0, 0, 0, 0.308);
+    width: 400px;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+}
+
+main > .containerlivro {
+    margin-top: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(background002.jpg);
+    position: relative;
+    padding: 30px;
+    height: 500px;
+
+}
+
+main > .containerlivro .livro {
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 400px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+footer {
+    margin-top: 200px;
+    background-color: black;
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+footer > p > a {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
