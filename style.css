@@ -69,7 +69,7 @@ main > .container {
     position: relative;
     padding: 30px;
     height: 590px;
-    min-width: 400px;
+    min-width: 410px;
 }
 
 main > .container .joaninha {
@@ -91,7 +91,7 @@ main > .containerlivro {
     position: relative;
     padding: 30px;
     height: 590px;
-    min-width: 400px;
+    min-width: 410px;
 
 }
 
@@ -107,6 +107,7 @@ main > .containerlivro .livro {
 }
 
 footer {
+    min-width: 400px;
     margin-top: 200px;
     background-color: black;
 
