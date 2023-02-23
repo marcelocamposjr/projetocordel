@@ -12,13 +12,13 @@ font-family: 'Sriracha', cursiva;
 * {
     margin: 0px;
     padding: 0px;
-    margin: auto;
 }
 
 header {
     margin: auto;
     background-color: black;
     padding: 50px;
+    min-width: 400px;
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
     font-size: 80px;
     text-align: center;
     font-family: 'Passion One', cursiva;
-    
+ 
 }
 
 header p {
