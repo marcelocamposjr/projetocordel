@@ -12,9 +12,11 @@ font-family: 'Sriracha', cursiva;
 * {
     margin: 0px;
     padding: 0px;
+    margin: auto;
 }
 
 header {
+    margin: auto;
     background-color: black;
     padding: 50px;
 }
@@ -76,6 +78,7 @@ main > .container .joaninha {
     color: white;
     padding: 20px;
     border-radius: 5px;
+    margin-left: 40px;
     
     
 }
@@ -98,6 +101,7 @@ main > .containerlivro .livro {
     color: white;
     padding: 10px;
     border-radius: 5px;
+    margin-left: 40px;
     
 }
 
