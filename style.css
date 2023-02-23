@@ -107,9 +107,11 @@ main > .containerlivro .livro {
 }
 
 footer {
-    min-width: 400px;
     margin-top: 200px;
+    margin: auto;
     background-color: black;
+    padding: 20px;
+    min-width: 400px;
 
 }
 
