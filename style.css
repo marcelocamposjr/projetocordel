@@ -12,13 +12,13 @@ font-family: 'Sriracha', cursiva;
 * {
     margin: 0px;
     padding: 0px;
-    min-width: 260px;
 }
 
 header {
     margin: auto;
     background-color: black;
     padding: 50px;
+    min-width: 400px;
 }
 
 header h1 {
@@ -53,6 +53,7 @@ main p {
     margin-top: 50px;
     text-align: left;
     padding: 20px;
+    min-width: 400px;
     font-size: 33px;
     font-family: 'Sriracha', cursiva;
     
@@ -68,12 +69,13 @@ main > .container {
     position: relative;
     padding: 30px;
     height: 590px;
+    min-width: 410px;
 }
 
 main > .container .joaninha {
     background-color: rgba(0, 0, 0, 0.308);
+    width: 100px;
     color: white;
-    max-width: 400px;
     padding: 20px;
     border-radius: 5px;
     margin-left: 1px; 
@@ -89,12 +91,13 @@ main > .containerlivro {
     position: relative;
     padding: 30px;
     height: 590px;
+    min-width: 410px;
 
 }
 
 main > .containerlivro .livro {
     background-color: rgba(0, 0, 0, 0.514);
-    max-width: 400px;
+    width: 100px;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -104,6 +107,7 @@ main > .containerlivro .livro {
 }
 
 footer {
+    min-width: 400px;
     margin-top: 200px;
     background-color: black;
 
