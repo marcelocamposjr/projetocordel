@@ -14,35 +14,34 @@ font-family: 'Sriracha', cursiva;
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+
+}
+
 header {
-    margin: auto;
+    color: white;
     background-color: black;
-    padding: 50px;
-    min-width: 400px;
+    text-align: center;
 }
 
 header h1 {
-    color: white;
-    font-weight: 600;
-    font-size: 80px;
-    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
     font-family: 'Passion One', cursiva;
+    font-size: 8vw;
  
 }
 
 header p {
-    color: white;
-    text-align: center;
-    font-size: 19px;
-    font-family: 'gill sans';
+    padding-bottom: 50px;
     
 }
 
 header p a {
     color: white;
     text-decoration: none;
-    font-size: 21px;
-    font-family: 'Passion one';
+    font-weight: bolder;
 }
 
 header p a:hover {
@@ -50,11 +49,11 @@ header p a:hover {
 }
 
 main p {
-    margin-top: 50px;
-    text-align: left;
-    padding: 20px;
-    min-width: 400px;
-    font-size: 33px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 24px;
     font-family: 'Sriracha', cursiva;
     
 
@@ -64,22 +63,20 @@ main > .container {
     margin-top: 200px;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position:  center;
     background-image: url(background001.jpg);
-    position: relative;
     padding: 30px;
     height: 590px;
-    min-width: 410px;
 }
 
 main > .container .joaninha {
-    background-color: rgba(0, 0, 0, 0.308);
-    width: 100px;
+    text-shadow: 1px 1px 0px black;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.377);
     color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-left: 1px; 
-    padding: 10px;
+    margin-top: 100px;
+
 }
 
 main > .containerlivro {
@@ -91,34 +88,31 @@ main > .containerlivro {
     position: relative;
     padding: 30px;
     height: 590px;
-    min-width: 410px;
 
 }
 
 main > .containerlivro .livro {
-    background-color: rgba(0, 0, 0, 0.514);
-    width: 100px;
+
+    text-shadow: 1px 1px 0px black;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.377);
     color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-left: 1px; 
-    padding: 10px;
-    
+    margin-top: 100px;
 }
 
 footer {
     margin-top: 200px;
     background-color: black;
     padding: 20px;
-    min-width: 400px;
 
 }
 
 footer p {
-    color: white;
+    background-color: black;
     text-align: center;
+    color: white;
     padding: 10px;
-    font-size: 20px;
     
 }
 
