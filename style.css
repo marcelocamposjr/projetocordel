@@ -75,8 +75,6 @@ main > .container .joaninha {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
-    margin-top: 100px;
-
 }
 
 main > .containerlivro {
@@ -98,7 +96,6 @@ main > .containerlivro .livro {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
-    margin-top: 100px;
 }
 
 footer {
